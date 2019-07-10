@@ -1,6 +1,6 @@
-import {hello} from './src/talker/hello';
+import { hello } from './talker/hello';
 //or // import * from './talker/hello' as...;
-import { moment } from 'moment';
+import moment from 'moment';
 
 console.log(moment().format('LLLL'));
 console.log(hello("Derek"));

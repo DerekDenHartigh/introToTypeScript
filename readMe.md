@@ -1,3 +1,5 @@
+Daniel Wolf was the teacher for this, 7/9/19
+
 in terminal: "tsc --init", adds a tsconfig.json.
 "tsc" in the terminal compiles the Typescript to Javascript (as per the tsconfig.json, wither in root or another designated folder) 
 "tsc -w" starts a watcher

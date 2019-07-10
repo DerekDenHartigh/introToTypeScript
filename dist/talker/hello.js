@@ -1,6 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var hello_1 = require("./talker/hello");
-//or // import * from './talker/hello' as...;
-console.log(hello_1.hello("Derek"));
+var world = '';
+function hello(word) {
+    if (word === void 0) { word = world; }
+    return "Hello " + word;
+}
+exports.hello = hello;
+;
+console.log(hello('world!'));
 //# sourceMappingURL=hello.js.map
